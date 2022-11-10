@@ -1,0 +1,20 @@
+{
+    "public": {
+        "isMaintenance": false,
+        "title": "sample",
+        "loginTitle": "sample",
+        "sub": "/",
+        "defaultComponent": "home",
+        "static": [
+            {
+                "path": "*",
+                "files": []
+            }
+        ],
+        "reCaptcha": {
+            "publicKey": null,
+            "privateKey": null
+        }
+    },
+    "bindIP": "127.0.0.1"
+}

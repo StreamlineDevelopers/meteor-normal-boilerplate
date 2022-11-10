@@ -1,0 +1,40 @@
+// Variable Decalaration
+$defgap: .5rem;
+
+// Simple Reset
+* {
+    box-sizing: border-box;
+}
+
+// Main CSS
+.app {
+    position: relative;
+
+    textarea {
+        resize: none;
+    }
+
+    section,
+    form,
+    .input-group,
+    .tasks__lists,
+    .tasks__item,
+    .tasks__item__actions {
+        display: flex;
+        flex-direction: column;
+        gap: $defgap;
+    }
+
+    .input-group,
+    form {
+        max-width: max-content;
+    }
+
+    .tasks {
+        &__item {
+            &__actions {
+                flex-direction: row;
+            }
+        }
+    }
+}
